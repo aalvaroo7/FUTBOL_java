@@ -13,6 +13,14 @@ public class Personal {
         this.edad = edad;
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getApellidos() {
+        return apellidos;
+    }
+
     public void concentrarse() {
         System.out.println(nombre + " se está concentrando.");
     }
